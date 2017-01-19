@@ -10,7 +10,6 @@ import java.util.concurrent.TimeUnit;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.remote.DesiredCapabilities;
 
-import com.mscorp.keywords.GoogleHomePageActions;
 import com.mscorp.keywords.AltoroMutualPageActions;
 
 import com.mscorp.automation.seleniumCoreUtils.TakeScreenshot;
@@ -32,7 +31,6 @@ public class webDriverCreator {
 	Map<String, Object> chromeOptions = null;
 	DesiredCapabilities capabilities;
 
-	public GoogleHomePageActions googleHomePage;
 	public AltoroMutualPageActions altoroMutual;
 	
 	/**
@@ -46,7 +44,6 @@ public class webDriverCreator {
 	}
 
 	private void _initPage() {
-		googleHomePage = new GoogleHomePageActions(driver);
 		altoroMutual = new AltoroMutualPageActions(driver);
 		
 	}
