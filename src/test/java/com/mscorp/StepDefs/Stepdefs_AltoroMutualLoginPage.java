@@ -23,7 +23,6 @@ public class Stepdefs_AltoroMutualLoginPage {
         test.altoroMutual.inputPassword(pass);
     }
 
-    //I press Go button
     @And("^I press Go button$")
     public void HitGoButton() {
         test.altoroMutual.clickOnLoginButton();
@@ -32,5 +31,15 @@ public class Stepdefs_AltoroMutualLoginPage {
     @Then("^I am on admin dashboard page$")
     public void assertUserIsLoggedIn() {
         test.altoroMutual.assertUserIsAbleToViewDashboard();
+    }
+    
+    @When("^I click on sign off button$")
+    public void PerformSignOffAction(){
+        test.altoroMutual.clickOnSignOffButton();
+    }
+    
+    @Then("^I should be on the default page$")
+    public void assertDefaultPageUrl(){
+        test.altoroMutual.assertDefaultPageIsAvailable();
     }
 }
