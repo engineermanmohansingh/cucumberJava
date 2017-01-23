@@ -1,13 +1,16 @@
 package com.mscorp.StepDefs;
 
+
+import static com.mscorp.StepDefs.Step_Def_Base.test;
 import com.mscorp.automation.webDriverCreator;
-import cucumber.api.java.en.And;
+import cucumber.api.java.en.Then;
+import cucumber.api.java.en.When;
 
 import cucumber.api.java.en.*;
 
 public class Stepdefs_AltoroMutualLoginPage {
 
-    webDriverCreator test = CucumberHooks.test;
+    
 
     @Given("^I am on test fire login page \"([^\"]*)\"$")
     public void alotoroMutualLoginPage(String url) {
