@@ -5,18 +5,7 @@
  */
 package com.mscorp.StepDefs;
 
-import com.mscorp.automation.webDriverCreator;
-import java.io.IOException;
-import java.lang.annotation.Annotation;
-import java.nio.file.Files;
-import java.nio.file.OpenOption;
-import java.nio.file.Paths;
-import java.text.SimpleDateFormat;
-import java.util.ArrayList;
-import java.util.Date;
-import java.util.List;
-
-
+import static com.mscorp.StepDefs.SingleFeatureTest.test;
 import cucumber.api.CucumberOptions;
 import cucumber.api.Scenario;
 import cucumber.api.java.After;
@@ -28,31 +17,27 @@ import cucumber.api.java.Before;
  */
 public class Step_Def_Base {
 
-	public static webDriverCreator test;
-	public static String timeStamp = new SimpleDateFormat("yyMMddHHmmss").format(new Date());
-	public static String userID;
-	
-	public static List<String> deleteTermList = new ArrayList<String>();
+    @Before
+    public void printScenario(Scenario scenario) {
+        String className = this.getClass().getCanonicalName();
+        System.out.println("********************************************************");
+        System.out.println("Scenario: " + scenario.getName());
+        System.out.println("********************************************************");
+    }
 
-	@Before
-	public void initialSetUp() {
-            test = new webDriverCreator(timeStamp);
-	}
+    @After
+    public void screenShotAndConsoleLog(Scenario result) {
+        screenShot(result);
+        if (!(result.getStatus().contains("pass"))) {
+            throw new RuntimeException(result.getName() + " got failed");
+        }
+    }
 
-
-
-	@After
-	public void screenShotAndConsoleLog(Scenario result) {
-		screenShot(result);
-		if (!(result.getStatus().contains("pass"))) {
-			throw new RuntimeException(result.getName() + " got failed");
-		}
-                test.closeBrowserSession();
-	}
-
-	private void screenShot(Scenario result) {
-		test.takescreenshot.takeScreenShotOnException(result);
-         
-	}
+    private void screenShot(Scenario result) {
+        test.takescreenshot.takeScreenShotOnException(result);
+        
+       
+       
+    }
 
 }

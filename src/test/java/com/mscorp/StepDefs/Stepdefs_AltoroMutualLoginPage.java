@@ -1,16 +1,15 @@
 package com.mscorp.StepDefs;
 
 
-import static com.mscorp.StepDefs.Step_Def_Base.test;
+import static com.mscorp.StepDefs.SingleFeatureTest.test;
 import com.mscorp.automation.webDriverCreator;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 
 import cucumber.api.java.en.*;
+import java.util.List;
 
 public class Stepdefs_AltoroMutualLoginPage {
-
-    
 
     @Given("^I am on test fire login page \"([^\"]*)\"$")
     public void alotoroMutualLoginPage(String url) {
@@ -35,14 +34,20 @@ public class Stepdefs_AltoroMutualLoginPage {
     public void assertUserIsLoggedIn() {
         test.altoroMutual.assertUserIsAbleToViewDashboard();
     }
-    
+
     @When("^I click on sign off button$")
-    public void PerformSignOffAction(){
+    public void PerformSignOffAction() {
         test.altoroMutual.clickOnSignOffButton();
     }
-    
+
     @Then("^I should be on the default page$")
-    public void assertDefaultPageUrl(){
+    public void assertDefaultPageUrl() {
         test.altoroMutual.assertDefaultPageIsAvailable();
+    }
+
+    @And("^I should be able to click on following links$")
+    public void clickOnLinks(List<String> linkList) {
+
+        test.altoroMutual.clickOnLinks(linkList);
     }
 }
