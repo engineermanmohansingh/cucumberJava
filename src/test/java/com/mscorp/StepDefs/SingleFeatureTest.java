@@ -15,7 +15,7 @@ import org.testng.annotations.BeforeClass;
  *
  * @author manmohansingh
  */
-@CucumberOptions(features = "src/test/resources/features/", tags = {"@altoro"}, format = {"json:/target/cucumber/report.html"})
+@CucumberOptions(features = "src/test/resources/features/", tags = {"@cashkaro"}, format = {"json:/target/cucumber/report.html"})
 public class SingleFeatureTest extends AbstractTestNGCucumberTests {
 
     public static webDriverCreator test;

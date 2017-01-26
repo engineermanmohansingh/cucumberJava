@@ -10,10 +10,136 @@ import java.util.concurrent.TimeUnit;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.remote.DesiredCapabilities;
 
-import com.mscorp.keywords.AltoroMutualPageActions;
+import com.mscorp.keywords.CashKaroPageActions;
 
 import com.mscorp.automation.seleniumCoreUtils.TakeScreenshot;
 
+import static com.mscorp.automation.utils.ConfigPropertyReader.getProperty;
+import static com.mscorp.automation.utils.ConfigPropertyReader.getProperty;
+import static com.mscorp.automation.utils.ConfigPropertyReader.getProperty;
+import static com.mscorp.automation.utils.ConfigPropertyReader.getProperty;
+import static com.mscorp.automation.utils.ConfigPropertyReader.getProperty;
+import static com.mscorp.automation.utils.ConfigPropertyReader.getProperty;
+import static com.mscorp.automation.utils.ConfigPropertyReader.getProperty;
+import static com.mscorp.automation.utils.ConfigPropertyReader.getProperty;
+import static com.mscorp.automation.utils.ConfigPropertyReader.getProperty;
+import static com.mscorp.automation.utils.ConfigPropertyReader.getProperty;
+import static com.mscorp.automation.utils.ConfigPropertyReader.getProperty;
+import static com.mscorp.automation.utils.ConfigPropertyReader.getProperty;
+import static com.mscorp.automation.utils.ConfigPropertyReader.getProperty;
+import static com.mscorp.automation.utils.ConfigPropertyReader.getProperty;
+import static com.mscorp.automation.utils.ConfigPropertyReader.getProperty;
+import static com.mscorp.automation.utils.ConfigPropertyReader.getProperty;
+import static com.mscorp.automation.utils.ConfigPropertyReader.getProperty;
+import static com.mscorp.automation.utils.ConfigPropertyReader.getProperty;
+import static com.mscorp.automation.utils.ConfigPropertyReader.getProperty;
+import static com.mscorp.automation.utils.ConfigPropertyReader.getProperty;
+import static com.mscorp.automation.utils.ConfigPropertyReader.getProperty;
+import static com.mscorp.automation.utils.ConfigPropertyReader.getProperty;
+import static com.mscorp.automation.utils.ConfigPropertyReader.getProperty;
+import static com.mscorp.automation.utils.ConfigPropertyReader.getProperty;
+import static com.mscorp.automation.utils.ConfigPropertyReader.getProperty;
+import static com.mscorp.automation.utils.ConfigPropertyReader.getProperty;
+import static com.mscorp.automation.utils.ConfigPropertyReader.getProperty;
+import static com.mscorp.automation.utils.ConfigPropertyReader.getProperty;
+import static com.mscorp.automation.utils.ConfigPropertyReader.getProperty;
+import static com.mscorp.automation.utils.ConfigPropertyReader.getProperty;
+import static com.mscorp.automation.utils.ConfigPropertyReader.getProperty;
+import static com.mscorp.automation.utils.ConfigPropertyReader.getProperty;
+import static com.mscorp.automation.utils.ConfigPropertyReader.getProperty;
+import static com.mscorp.automation.utils.ConfigPropertyReader.getProperty;
+import static com.mscorp.automation.utils.ConfigPropertyReader.getProperty;
+import static com.mscorp.automation.utils.ConfigPropertyReader.getProperty;
+import static com.mscorp.automation.utils.ConfigPropertyReader.getProperty;
+import static com.mscorp.automation.utils.ConfigPropertyReader.getProperty;
+import static com.mscorp.automation.utils.ConfigPropertyReader.getProperty;
+import static com.mscorp.automation.utils.ConfigPropertyReader.getProperty;
+import static com.mscorp.automation.utils.ConfigPropertyReader.getProperty;
+import static com.mscorp.automation.utils.ConfigPropertyReader.getProperty;
+import static com.mscorp.automation.utils.ConfigPropertyReader.getProperty;
+import static com.mscorp.automation.utils.ConfigPropertyReader.getProperty;
+import static com.mscorp.automation.utils.ConfigPropertyReader.getProperty;
+import static com.mscorp.automation.utils.ConfigPropertyReader.getProperty;
+import static com.mscorp.automation.utils.ConfigPropertyReader.getProperty;
+import static com.mscorp.automation.utils.ConfigPropertyReader.getProperty;
+import static com.mscorp.automation.utils.ConfigPropertyReader.getProperty;
+import static com.mscorp.automation.utils.ConfigPropertyReader.getProperty;
+import static com.mscorp.automation.utils.ConfigPropertyReader.getProperty;
+import static com.mscorp.automation.utils.ConfigPropertyReader.getProperty;
+import static com.mscorp.automation.utils.ConfigPropertyReader.getProperty;
+import static com.mscorp.automation.utils.ConfigPropertyReader.getProperty;
+import static com.mscorp.automation.utils.ConfigPropertyReader.getProperty;
+import static com.mscorp.automation.utils.ConfigPropertyReader.getProperty;
+import static com.mscorp.automation.utils.ConfigPropertyReader.getProperty;
+import static com.mscorp.automation.utils.ConfigPropertyReader.getProperty;
+import static com.mscorp.automation.utils.ConfigPropertyReader.getProperty;
+import static com.mscorp.automation.utils.ConfigPropertyReader.getProperty;
+import static com.mscorp.automation.utils.ConfigPropertyReader.getProperty;
+import static com.mscorp.automation.utils.ConfigPropertyReader.getProperty;
+import static com.mscorp.automation.utils.ConfigPropertyReader.getProperty;
+import static com.mscorp.automation.utils.ConfigPropertyReader.getProperty;
+import static com.mscorp.automation.utils.ConfigPropertyReader.getProperty;
+import static com.mscorp.automation.utils.ConfigPropertyReader.getProperty;
+import static com.mscorp.automation.utils.ConfigPropertyReader.getProperty;
+import static com.mscorp.automation.utils.ConfigPropertyReader.getProperty;
+import static com.mscorp.automation.utils.ConfigPropertyReader.getProperty;
+import static com.mscorp.automation.utils.ConfigPropertyReader.getProperty;
+import static com.mscorp.automation.utils.ConfigPropertyReader.getProperty;
+import static com.mscorp.automation.utils.ConfigPropertyReader.getProperty;
+import static com.mscorp.automation.utils.ConfigPropertyReader.getProperty;
+import static com.mscorp.automation.utils.ConfigPropertyReader.getProperty;
+import static com.mscorp.automation.utils.ConfigPropertyReader.getProperty;
+import static com.mscorp.automation.utils.ConfigPropertyReader.getProperty;
+import static com.mscorp.automation.utils.ConfigPropertyReader.getProperty;
+import static com.mscorp.automation.utils.ConfigPropertyReader.getProperty;
+import static com.mscorp.automation.utils.ConfigPropertyReader.getProperty;
+import static com.mscorp.automation.utils.ConfigPropertyReader.getProperty;
+import static com.mscorp.automation.utils.ConfigPropertyReader.getProperty;
+import static com.mscorp.automation.utils.ConfigPropertyReader.getProperty;
+import static com.mscorp.automation.utils.ConfigPropertyReader.getProperty;
+import static com.mscorp.automation.utils.ConfigPropertyReader.getProperty;
+import static com.mscorp.automation.utils.ConfigPropertyReader.getProperty;
+import static com.mscorp.automation.utils.ConfigPropertyReader.getProperty;
+import static com.mscorp.automation.utils.ConfigPropertyReader.getProperty;
+import static com.mscorp.automation.utils.ConfigPropertyReader.getProperty;
+import static com.mscorp.automation.utils.ConfigPropertyReader.getProperty;
+import static com.mscorp.automation.utils.ConfigPropertyReader.getProperty;
+import static com.mscorp.automation.utils.ConfigPropertyReader.getProperty;
+import static com.mscorp.automation.utils.ConfigPropertyReader.getProperty;
+import static com.mscorp.automation.utils.ConfigPropertyReader.getProperty;
+import static com.mscorp.automation.utils.ConfigPropertyReader.getProperty;
+import static com.mscorp.automation.utils.ConfigPropertyReader.getProperty;
+import static com.mscorp.automation.utils.ConfigPropertyReader.getProperty;
+import static com.mscorp.automation.utils.ConfigPropertyReader.getProperty;
+import static com.mscorp.automation.utils.ConfigPropertyReader.getProperty;
+import static com.mscorp.automation.utils.ConfigPropertyReader.getProperty;
+import static com.mscorp.automation.utils.ConfigPropertyReader.getProperty;
+import static com.mscorp.automation.utils.ConfigPropertyReader.getProperty;
+import static com.mscorp.automation.utils.ConfigPropertyReader.getProperty;
+import static com.mscorp.automation.utils.ConfigPropertyReader.getProperty;
+import static com.mscorp.automation.utils.ConfigPropertyReader.getProperty;
+import static com.mscorp.automation.utils.ConfigPropertyReader.getProperty;
+import static com.mscorp.automation.utils.ConfigPropertyReader.getProperty;
+import static com.mscorp.automation.utils.ConfigPropertyReader.getProperty;
+import static com.mscorp.automation.utils.ConfigPropertyReader.getProperty;
+import static com.mscorp.automation.utils.ConfigPropertyReader.getProperty;
+import static com.mscorp.automation.utils.ConfigPropertyReader.getProperty;
+import static com.mscorp.automation.utils.ConfigPropertyReader.getProperty;
+import static com.mscorp.automation.utils.ConfigPropertyReader.getProperty;
+import static com.mscorp.automation.utils.ConfigPropertyReader.getProperty;
+import static com.mscorp.automation.utils.ConfigPropertyReader.getProperty;
+import static com.mscorp.automation.utils.ConfigPropertyReader.getProperty;
+import static com.mscorp.automation.utils.ConfigPropertyReader.getProperty;
+import static com.mscorp.automation.utils.ConfigPropertyReader.getProperty;
+import static com.mscorp.automation.utils.ConfigPropertyReader.getProperty;
+import static com.mscorp.automation.utils.ConfigPropertyReader.getProperty;
+import static com.mscorp.automation.utils.ConfigPropertyReader.getProperty;
+import static com.mscorp.automation.utils.ConfigPropertyReader.getProperty;
+import static com.mscorp.automation.utils.ConfigPropertyReader.getProperty;
+import static com.mscorp.automation.utils.ConfigPropertyReader.getProperty;
+import static com.mscorp.automation.utils.ConfigPropertyReader.getProperty;
+import static com.mscorp.automation.utils.ConfigPropertyReader.getProperty;
+import static com.mscorp.automation.utils.ConfigPropertyReader.getProperty;
 import static com.mscorp.automation.utils.ConfigPropertyReader.getProperty;
 
 public class webDriverCreator {
@@ -31,7 +157,7 @@ public class webDriverCreator {
 	Map<String, Object> chromeOptions = null;
 	DesiredCapabilities capabilities;
 
-	public AltoroMutualPageActions altoroMutual;
+	public CashKaroPageActions cashKaro;
 	
 	/**
 	 * Initiating the page objects
@@ -44,7 +170,7 @@ public class webDriverCreator {
 	}
 
 	private void _initPage() {
-		altoroMutual = new AltoroMutualPageActions(driver);
+		cashKaro = new CashKaroPageActions(driver);
 		
 	}
 

@@ -141,6 +141,10 @@ public class seleniumCore {
         driver.switchTo().defaultContent();
     }
 
+    public void switchToActiveContent() {
+        driver.switchTo().activeElement();
+    }
+
     protected void executeJavascript(String script) {
         ((JavascriptExecutor) driver).executeScript(script);
     }

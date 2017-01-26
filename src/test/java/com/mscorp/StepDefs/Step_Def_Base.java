@@ -20,9 +20,9 @@ public class Step_Def_Base {
     @Before
     public void printScenario(Scenario scenario) {
         String className = this.getClass().getCanonicalName();
-        System.out.println("********************************************************");
-        System.out.println("Scenario: " + scenario.getName());
-        System.out.println("********************************************************");
+        System.out.println("_________________________________________________________");
+        System.out.println("*********"+"Scenario: " + scenario.getName()+"*********");
+        System.out.println("---------------------------------------------------------");
     }
 
     @After
