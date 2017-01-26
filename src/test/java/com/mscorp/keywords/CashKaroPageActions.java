@@ -13,6 +13,7 @@ public class CashKaroPageActions extends GetPage {
 
     By username = By.cssSelector("#uname");
     By password = By.cssSelector("#pwd-txt");
+    By passEnter = By.cssSelector("#pwd");
     By loginButton = By.cssSelector("#sign_in");
     By myAccount = By.linkText("MY ACCOUNT");
     By Logout = By.linkText("LOGOUT");
@@ -47,7 +48,7 @@ public class CashKaroPageActions extends GetPage {
     public void inputPassword(String pass) {
         isElementDisplayed(finder(password));
         click(finder(password));
-        finder(password).sendKeys(pass);
+        finder(passEnter).sendKeys(pass);
     }
 
     public void clickOnSignInButton() {
